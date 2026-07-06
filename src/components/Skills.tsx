@@ -18,7 +18,7 @@ const loopSkills = [...skills, ...skills];
 
 export default function Skills() {
   return (
-    <section id="skills" className="max-w-400 mx-auto px-6 py-16 overflow-hidden">
+    <section id="skills" className="max-w-400 mx-auto px-6 py-40 overflow-hidden">
       <span className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-violet-300 mb-4">
         <span className="w-1.5 h-1.5 rounded-full bg-violet-400" />
         Skills

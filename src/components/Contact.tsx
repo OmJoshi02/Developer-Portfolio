@@ -1,5 +1,5 @@
 import { Mail } from 'lucide-react'
-import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 const contacts = [
   { icon: Mail, label: 'omcjoshi@gmail.com', sub: 'Drop me an email', href: 'mailto:omcjoshi@gmail.com' },

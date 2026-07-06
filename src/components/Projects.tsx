@@ -1,4 +1,4 @@
-import { Radio, Calendar, CloudUpload, ExternalLink, ArrowRight, Camera } from 'lucide-react'
+import { Radio, Calendar, ExternalLink, ArrowRight, Camera } from 'lucide-react'
 
 const projects = [
   {

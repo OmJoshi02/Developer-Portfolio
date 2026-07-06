@@ -1,4 +1,4 @@
-import { ArrowUp, Heart } from 'lucide-react'
+import { ArrowUp } from 'lucide-react'
 
 export default function Footer() {
   return (

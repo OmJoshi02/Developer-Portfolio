@@ -55,14 +55,14 @@ export default function About() {
               </li>
             </ul>
 
-            <a
-              href="#skills"
-              className="inline-flex items-center gap-2 rounded-lg border border-white/15 px-5 py-2.5 text-sm font-medium text-white hover:bg-white/5 transition"
-            >
-              Know More About Me <ArrowRight size={15} />
-            </a>
-          </div>
+            <button
+            onClick={()=>document.getElementById("skills")?.scrollIntoView({behavior:'smooth'})}
+            className="group inline-flex items-center gap-2 rounded-xl border border-slate-700 bg-white/5 px-6 py-3 font-semibold transition-all duration-300 hover:border-violet-500 hover:bg-violet-500/10">
+              Know more about me
+              <ArrowRight size={18} className="transition-transform duration-300 group-hover:translate-x-1" />
+            </button>
 
+            </div>
           <div className="grid grid-cols-2 gap-5">
             {cards.map(({ icon: Icon, title, desc }) => (
               <div key={title} className="rounded-2xl border border-white/10 bg-white/[0.02] p-5">

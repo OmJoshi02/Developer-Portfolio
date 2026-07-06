@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import profile from '../assets/profile.png'
 
 
 const Hero = () => {
@@ -136,7 +137,7 @@ const Hero = () => {
             />
 
             <img
-                src="/src/assets/profile.png"
+                src={profile}
                 alt="Om Joshi"
                 className="
                 relative

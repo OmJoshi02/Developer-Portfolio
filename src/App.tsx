@@ -1,4 +1,3 @@
-import { Projector } from "lucide-react"
 import About from "./components/About"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"

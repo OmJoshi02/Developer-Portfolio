@@ -9,7 +9,7 @@ const contacts = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="max-w-6xl mx-auto px-6 py-16">
+    <section id="contact" className="max-w-400 mx-auto px-6 py-16">
       <span className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-violet-300 mb-4">
         <span className="w-1.5 h-1.5 rounded-full bg-violet-400" /> Contact
       </span>

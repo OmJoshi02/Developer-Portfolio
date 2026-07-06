@@ -25,7 +25,7 @@ const cards = [
 
 export default function About() {
   return (
-    <section id="about" className="max-w-6xl mx-auto px-6 py-32">
+    <section id="about" className="max-w-400 mx-auto px-6 py-32">
       <div className="rounded-3xl border border-white/10 bg-white/[0.02] p-8 sm:p-12">
         <span className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-violet-300 mb-4">
           <span className="w-1.5 h-1.5 rounded-full bg-violet-400" /> About Me

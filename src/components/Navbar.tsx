@@ -1,4 +1,4 @@
-
+import resume from "../assets/om_resume.pdf";
 const Navbar = () => {
   return (
         <nav className="
@@ -26,7 +26,7 @@ const Navbar = () => {
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
                 <a
-                    href="/src/assets/om_resume.pdf"
+                    href={resume}
                     target="_blank"
                     rel="noopener noreferrer"
                     >
@@ -34,7 +34,7 @@ const Navbar = () => {
                 </a>
                 
                 <a
-                href="/src/assets/om_resume.pdf"
+                href={resume}
                 download
                 >
                 Download Resume

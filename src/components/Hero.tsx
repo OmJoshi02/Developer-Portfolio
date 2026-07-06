@@ -135,7 +135,7 @@ const Hero = () => {
             />
 
             <img
-                src="src/assets/profile.png"
+                src="/src/assets/profile.png"
                 alt="Om Joshi"
                 className="
                 relative
